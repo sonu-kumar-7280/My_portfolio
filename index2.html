@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonu Kumar</title>
+
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style2.css" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#Home" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#Contact">Contact</a>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="Home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>SONU KUMAR</h1>
+            <h3>And I'm a <span class="multiple-text"></span>
+                <span class="typed-cursor" aria-hidden="true"></span>
+            </h3>
+            <p style="font-size: large;">I am Sonu Kumar, a passionate frontend developer with a strong focus on creating responsive, interactive, and visually appealing web applications. Specializing in modern web technologies such as HTML, CSS, and JavaScript, I also work with advanced frameworks like React to build dynamic user interfaces. My goal is to deliver high-performance web applications that not only provide seamless, cross-device experiences but also enhance user engagement and satisfaction.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="sonu2.jpg" alt="Profile Image" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="About">
+        <div class="about-img">
+            <img src="profile photo.jpg" alt="About Image" />
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hello, I am Sonu Kumar from Bihar. I have completed my 10th and 12th (Matric and Intermediate). Currently, I am pursuing my B.Tech in the IT department at Excel Engineering College in Tamil Nadu. I am passionate about frontend development and constantly working on improving my skills in web technologies.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <img src="card4.jpg" style="width: 41vh;" alt="">
+                <h1 style="font-size: xx-large;">
+                    <marquee behavior="alternate" direction="alternate" scrollamount="5">Web Development</marquee>
+                </h1>
+                <p>In this project, I applied core web development skills to create a responsive and user-friendly website using HTML, CSS, JavaScript, and modern frameworks such as React. The goal was to design an intuitive interface and ensure seamless performance across different devices and browsers.</p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <img src="images.jpg" style="width: 50vh;" alt="">
+                <h1 style="font-size: xx-large;">
+                    <marquee behavior="alternate" direction="alternate" scrollamount="5">UI/UX Designing</marquee>
+                </h1>
+                <p>The UI/UX design of this project focuses on creating an intuitive and visually appealing user interface that enhances the overall user experience through seamless navigation, responsive layouts, and user-centered design principles.</p>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <img src="android-app.png" style="width: 50vh;" alt="">
+                <h1 style="font-size: xx-large;">
+                    <marquee behavior="alternate" direction="alternate" scrollamount="5">App Development</marquee>
+                </h1>
+                <p>The app development process involved building a cross-platform solution that is both robust and user-friendly, ensuring fast performance, data security, and responsive design using modern frameworks and agile methodologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="card1.jpg" alt="Project 1" />
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>The web design was crafted with a focus on visual clarity, responsiveness, and user engagement, ensuring that the layout adapts seamlessly across devices while maintaining brand consistency.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- Additional portfolio items here... -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="Contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="FullName" />
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" />
+                <input type="text" placeholder="Email Subject" />
+            </div>
+            <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn" />
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2025 by @Sonu Kumar | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#Home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Custom Scripts -->
+    <script src="min.js"></script>
+</body>
+
+</html>
